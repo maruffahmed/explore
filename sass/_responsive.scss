@@ -1,0 +1,158 @@
+@media only screen and (min-width: 568px){
+    .review_item_profile{
+        width: 50%!important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    html {
+        font-size: 1em;
+    }
+    .navbar{
+        .nav-link{
+            padding : 0 1rem 1rem 1rem!important;
+        }
+        .navbar-collapse{
+            position: absolute;
+            right: 0;
+            bottom: 0.1rem;
+        }
+    }
+    // Hero content
+    .hero-content{
+        .hero-content-inner{
+            h1{
+                font-size: 5rem!important;
+            }
+            h2{
+                font-size: 2.5rem;
+                letter-spacing: 1rem!important;
+            }
+        }
+    }
+    // Find hotel
+    .find-hotel_form{
+        form{
+            .adult,.child{
+                width: 10%;
+            }
+            .submit-btn{
+                width: 15%;
+                margin-top: 1rem;
+            }
+        }
+    }
+    // About
+    .about{
+        background-image: url(../img/aboutRIghtBg.png);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    // Service
+    .service_item{
+        .service_item_icon{
+            width: 30%;
+        }
+    }
+    // Budget package
+    .budget-pack_bg_top{
+        min-height: 505px;
+        padding-bottom: 0px;
+    }
+    .budget-pack_bg_bottom{
+        background: $secondary!important;
+        min-height: 256px;
+        .packages{
+            position: absolute;
+            top: -250px;
+            
+        }
+    }
+    // Tour status
+    .tour-status_des_tab{
+        div{
+            h4{
+                margin-left: 1rem!important;
+            }
+        }
+        div:nth-child(2n){
+            margin-left: -35px!important;
+            width: 45%!important;
+            padding-left: 3rem!important;
+        }
+        div:last-child{
+            margin-left: -35px!important;
+            width: 35%!important;
+            padding-left: 1.5rem!important;
+        }
+    }
+    // Slide show
+    .slide-show{
+        min-height: 860px;
+        padding: 0 4rem 0 4rem;
+        .slide-show-right{
+            margin-left: -8rem;
+            .card{
+                width: 75%;
+            }
+        }
+    }
+    // Best deals
+    .best-deals_bg-top{
+        min-height: 684px;
+        padding-bottom: 0px;
+    }
+    .best-deals_bg_bottom{
+        .best-deals_items_packages{
+            position: absolute;
+            left: 0;
+            top: -450px;
+            .best-deals_items {
+                
+                .card:nth-child(2n){
+                    margin-top: -1rem!important;
+                    margin-bottom: 0rem!important;
+                    border-bottom-left-radius: unset;
+                    border-bottom-right-radius: unset;
+                }
+                .card:first-child{
+                    margin-right: -1rem;
+                }
+                .card:last-child{
+                    margin-left: -1rem;
+                }
+                .card:nth-child(2n)::after{
+                    width: 100%!important;
+                    height: 5.5rem!important;
+                }
+            }
+        }
+    }
+    // Review
+    .review_item_profile{
+        width: 40%!important;
+    }
+
+    // footer
+    .footer-mid_social_links{
+        .row{
+            width: 50%!important;
+        }
+    }
+}
+@media only screen and (min-width: 992px){
+    // Tour status
+    .tour-status_des_tab{
+        div:nth-child(2n){
+            width: 40%!important;
+            padding-left: 3rem!important;
+        }
+        div:last-child{
+            padding-left: 3rem!important;
+        }
+    }
+    // Review
+    .review_item_profile{
+        width: 25%!important;
+    }
+}

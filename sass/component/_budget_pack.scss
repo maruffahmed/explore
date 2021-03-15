@@ -1,0 +1,54 @@
+.budget-pack{
+    min-height: 761px;
+    .budget-pack_bg_top{
+        background: url(../img/budgetPackBG.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        // min-height: 505px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .budget-pack_bg_bottom{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: $secondary!important;
+        min-height: 256px;
+        .packages{
+            width: 100%;
+            .packages_item{
+                .card{
+                    min-height: 412px;
+                    border-radius: 1rem;
+                    .pack_item_top{
+                        i{
+                            font-size: 4rem;
+                            color: $icon-primary!important;
+                        }
+                        h4{
+                            margin-top: 0.8rem;
+                            font-weight: 800!important;
+                        }
+                    }
+                    .pack_item_price{
+                        background : $primary!important;
+                        position: absolute;
+                        left: -0.5rem;
+                        right: -0.5rem;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        height: 50px;
+                        h4{
+                            margin-top: 0.5rem;
+                            font-weight: 500!important;
+                        }
+                    }
+                    .pack_item_services{
+                        width: 100%;
+                        bottom: 10px;
+                    }
+                }
+                
+            }
+        }
+    }
+}

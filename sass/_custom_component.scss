@@ -1,0 +1,41 @@
+.btn-warning-custom{
+    background: $primary!important;
+    text-transform: uppercase;
+}
+.custom-list{
+    padding: 0;
+    margin: 0;
+    margin-top: 53px;
+    li{
+        position: relative;
+        list-style: none!important;
+        padding-left: 2rem;
+    }
+    li::before{
+        content: "";
+        width: 1.5rem;
+        height: 1.5rem;
+        background-image: url(../img/checkBoxBg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        top: 10%;
+    }
+}
+.custom-list-small{
+    li{
+        padding-left: 1.5rem;
+        p{
+            font-size: 17px;
+            margin-bottom: 0.5rem!important;
+        }
+    }
+    li::before{
+        content: "";
+        width: 1rem;
+        height: 1rem;
+        left: 0;
+        top: 20%;
+    }
+}

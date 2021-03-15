@@ -1,0 +1,19 @@
+.service{
+    min-height: 600px;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    // margin-bottom: 90px;
+    .service_item_list{
+        margin-top: 70px;
+        .service_item{
+            
+            .service_item_icon{
+                width: 40%;
+                i{
+                    color: $secondary!important;
+                }
+            }
+        }
+        
+    }
+}

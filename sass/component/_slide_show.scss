@@ -1,0 +1,26 @@
+.slide-show{
+    min-height: 500px;
+    padding: 0 1rem 0 1rem;
+    .owl-carousel{
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+    .slide-dhow_left{
+        img{
+
+            width: 100%;
+        }
+    }
+    .slide-show-right{
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        .card{
+            width: 100%;
+            .slide-show-right_icon{
+                i{
+                    color: $secondary!important;
+                }
+            }
+        }
+    }
+}

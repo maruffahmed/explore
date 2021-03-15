@@ -1,0 +1,711 @@
+html {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+body {
+  color: #000000 !important;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif !important;
+  background: #ffffff !important;
+}
+
+h1, h2 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+}
+
+a, h3, h4, h5, .font-montserrat-reg {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p, .font-lato, small {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 400;
+}
+
+p {
+  font-size: 17.78px !important;
+}
+
+.sub-title, .font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.clear {
+  overflow: hidden;
+}
+
+.roted {
+  transform: rotate(-40deg);
+}
+
+.rounded-xl {
+  border-radius: 1rem !important;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000000;
+  padding: 0.2em 0;
+}
+
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  /* 1 */
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+.invisible {
+  visibility: hidden;
+}
+
+label, input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+}
+
+.btn-warning-custom {
+  background: #F0D839 !important;
+  text-transform: uppercase;
+}
+
+.custom-list {
+  padding: 0;
+  margin: 0;
+  margin-top: 53px;
+}
+.custom-list li {
+  position: relative;
+  list-style: none !important;
+  padding-left: 2rem;
+}
+.custom-list li::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../img/checkBoxBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 10%;
+}
+
+.custom-list-small li {
+  padding-left: 1.5rem;
+}
+.custom-list-small li p {
+  font-size: 17px;
+  margin-bottom: 0.5rem !important;
+}
+.custom-list-small li::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  left: 0;
+  top: 20%;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ffffff;
+  z-index: 999999;
+}
+
+header {
+  min-height: 833px;
+  background-image: url(../img/heroBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 175px;
+}
+header .navbar-warp {
+  background: rgba(0, 0, 0, 0.3);
+}
+header .navbar-warp .nav-top {
+  height: 70px;
+  border-bottom: 2px solid #707786;
+}
+header .navbar-warp .nav-top .nav-top_contact_info a {
+  color: #ffffff !important;
+}
+header .navbar-warp .nav-top .nav-top_contact_info a i {
+  color: #F0D839 !important;
+}
+header .navbar-warp .nav-top .nav-top_inportant_link .nav-top_social_link .nav-link {
+  color: #F0D839 !important;
+  padding: 0.5rem !important;
+}
+header .navbar-warp .nav-top .nav-top_inportant_link .nav-top_users_link .nav-link {
+  color: #ffffff !important;
+}
+header .navbar-warp .nav-top .nav-top_inportant_link .nav-top_users_link .nav-link i {
+  color: #F0D839 !important;
+}
+header .navbar-warp .navbar .navbar-brand {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+header .navbar-warp .navbar .navbar-brand a {
+  display: block;
+  color: #ffffff !important;
+  font-size: 1.5rem !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+}
+header .navbar-warp .navbar .navbar-brand a .brand-midel {
+  width: 1.5rem;
+  position: relative;
+}
+header .navbar-warp .navbar .navbar-brand a .brand-midel span {
+  color: #F0D839 !important;
+  position: absolute;
+  top: 0;
+}
+header .navbar-warp .navbar .navbar-brand a .brand-midel span:first-child {
+  left: 0.5rem;
+}
+header .navbar-warp .navbar .navbar-brand a .brand-midel span:last-child {
+  right: 0.5rem;
+}
+header .navbar-warp .navbar .navbar-brand small {
+  position: absolute;
+  font-size: 0.6rem !important;
+  bottom: -0.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+}
+header .navbar-warp .navbar .nav-link {
+  text-transform: uppercase;
+  color: #ffffff !important;
+  text-align: center;
+}
+header .navbar-warp .navbar .nav-link:hover {
+  border-bottom: 2px solid #F0D839;
+}
+header .hero-content {
+  margin-top: 187px;
+}
+header .hero-content .hero-content-inner {
+  color: #ffffff;
+}
+header .hero-content .hero-content-inner h1 {
+  font-size: 3.5rem;
+}
+header .hero-content .hero-content-inner h2 {
+  letter-spacing: 0.5rem;
+}
+header .hero-content .hero-content-inner .para {
+  margin-top: 50px !important;
+}
+header .hero-content .hero-content-inner .para p {
+  margin: 0 !important;
+}
+header .hero-content .hero-content-inner .btn {
+  margin-top: 55px;
+}
+
+.find-hotel {
+  min-height: 332px;
+  background-image: url(../img/findHotelBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 77px;
+  padding-bottom: 80px;
+}
+.find-hotel .find-hotel_form {
+  margin-top: 50px;
+  padding-top: 5px;
+}
+
+.about {
+  min-height: 612px;
+  background-size: contain;
+}
+.about .about_left {
+  height: 100%;
+}
+.about .about_left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+.about .about_right {
+  height: 100%;
+  margin-top: 84px;
+}
+.about .about_right .about_right_content {
+  margin-top: 45px;
+}
+
+.service {
+  min-height: 600px;
+  padding-top: 75px;
+  padding-bottom: 80px;
+}
+.service .service_item_list {
+  margin-top: 70px;
+}
+.service .service_item_list .service_item .service_item_icon {
+  width: 40%;
+}
+.service .service_item_list .service_item .service_item_icon i {
+  color: #00A4FF !important;
+}
+
+.budget-pack {
+  min-height: 761px;
+}
+.budget-pack .budget-pack_bg_top {
+  background: url(../img/budgetPackBG.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.budget-pack .budget-pack_bg_bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #00A4FF !important;
+  min-height: 256px;
+}
+.budget-pack .budget-pack_bg_bottom .packages {
+  width: 100%;
+}
+.budget-pack .budget-pack_bg_bottom .packages .packages_item .card {
+  min-height: 412px;
+  border-radius: 1rem;
+}
+.budget-pack .budget-pack_bg_bottom .packages .packages_item .card .pack_item_top i {
+  font-size: 4rem;
+  color: #373737 !important;
+}
+.budget-pack .budget-pack_bg_bottom .packages .packages_item .card .pack_item_top h4 {
+  margin-top: 0.8rem;
+  font-weight: 800 !important;
+}
+.budget-pack .budget-pack_bg_bottom .packages .packages_item .card .pack_item_price {
+  background: #F0D839 !important;
+  position: absolute;
+  left: -0.5rem;
+  right: -0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+}
+.budget-pack .budget-pack_bg_bottom .packages .packages_item .card .pack_item_price h4 {
+  margin-top: 0.5rem;
+  font-weight: 500 !important;
+}
+.budget-pack .budget-pack_bg_bottom .packages .packages_item .card .pack_item_services {
+  width: 100%;
+  bottom: 10px;
+}
+
+.tour-status {
+  min-height: 733px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.tour-status .tour-status_thumbnail {
+  width: 80%;
+  height: 540px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.tour-status .tour-status_thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.tour-status .tour-status_description .tour-status_des_tab {
+  margin-top: 55px;
+  border: 2px solid #00A4FF;
+  height: 90px;
+  width: 100%;
+}
+.tour-status .tour-status_description .tour-status_des_tab div {
+  width: calc(100%/3);
+}
+.tour-status .tour-status_description .tour-status_des_tab div i {
+  font-size: 1.5rem;
+  color: #373737;
+}
+.tour-status .tour-status_description .tour-status_des_tab div h4 {
+  margin-left: 0.5rem !important;
+}
+.tour-status .tour-status_description .tour-status_des_tab div:first-child {
+  background: #00A4FF;
+  clip-path: polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%);
+  width: 40%;
+}
+.tour-status .tour-status_description .tour-status_des_tab div:first-child i, .tour-status .tour-status_description .tour-status_des_tab div:first-child h4 {
+  color: #ffffff !important;
+}
+.tour-status .tour-status_description .tour-status_des_tab div:nth-child(2n) {
+  background: #E4E4E4;
+  margin-left: -25px;
+  width: 40%;
+  padding-left: 2rem;
+}
+.tour-status .tour-status_description .tour-status_des_tab div:last-child {
+  margin-left: -21px;
+  width: 38%;
+  padding-left: 1.8rem;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%, 15% 50%);
+  background: #ffffff;
+}
+.tour-status .tour-status_description .tour-status_des {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.best-deals {
+  min-height: 940px;
+}
+.best-deals .best-deals_bg-top {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: url(../img/bestDealsBG.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.best-deals .best-deals_bg_bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 256px;
+  background: #00A4FF !important;
+}
+.best-deals .best-deals_bg_bottom .best-deals_items_packages {
+  width: 100%;
+}
+.best-deals .best-deals_bg_bottom .best-deals_items_packages .best-deals_items .card {
+  border: unset !important;
+  overflow: hidden;
+  min-height: 520px;
+  border-radius: 1rem;
+}
+.best-deals .best-deals_bg_bottom .best-deals_items_packages .best-deals_items .card .card-body {
+  border-radius: 1rem;
+}
+.best-deals .best-deals_bg_bottom .best-deals_items_packages .best-deals_items .card:nth-child(2n) {
+  position: relative;
+  overflow: visible;
+  z-index: 1;
+}
+.best-deals .best-deals_bg_bottom .best-deals_items_packages .best-deals_items .card:nth-child(2n)::after {
+  content: "";
+  position: absolute;
+  background: #ffffff !important;
+  bottom: -14%;
+  clip-path: polygon(0 0, 0 50%, 50% 100%, 100% 50%, 100% 0);
+}
+
+.blog-sec {
+  min-height: 830px;
+  background: url(../img/blog_bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 110px;
+}
+.blog-sec .blog-sec_title {
+  padding-top: 110px;
+}
+.blog-sec .blog-sec_blog_items {
+  margin-top: 55px;
+}
+.blog-sec .blog-sec_blog_items .blog-content a {
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide-show {
+  min-height: 500px;
+  padding: 0 1rem 0 1rem;
+}
+.slide-show .owl-carousel {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.slide-show .slide-dhow_left img {
+  width: 100%;
+}
+.slide-show .slide-show-right {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.slide-show .slide-show-right .card {
+  width: 100%;
+}
+.slide-show .slide-show-right .card .slide-show-right_icon i {
+  color: #00A4FF !important;
+}
+
+.review {
+  min-height: 590px;
+  background: url(../img/reviewBG.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+.review .review_item .stars {
+  width: 15%;
+  margin-top: 40px !important;
+}
+.review .review_item .stars i {
+  color: #F0D839 !important;
+}
+.review .review_item .review_item_profile {
+  width: 75%;
+  margin: auto;
+  margin-top: 58px;
+}
+.review .review_item .review_item_profile .review_item_profile_thumb img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+footer .footer-top {
+  min-height: 514px;
+  background: url(../img/footerTopBg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+footer .footer-top .footer-top_title {
+  padding-top: 144px;
+}
+footer .footer-top .footer-top_icon {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1rem;
+}
+footer .footer-top .footer-top_icon i {
+  color: #F0D839 !important;
+  font-size: 10rem;
+}
+footer .footer-mid {
+  min-height: 378px;
+  padding-top: 80px;
+}
+footer .footer-mid .footer-mid_contact_item i {
+  font-size: 3rem;
+  color: #373737;
+}
+footer .footer-mid .footer-mid_social {
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+footer .footer-mid .footer-mid_social .footer-mid_social_links .row {
+  width: 100%;
+}
+footer .footer-mid .footer-mid_social .footer-mid_social_links .row a {
+  color: #373737;
+  padding: 1rem;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 2px solid #F0D839;
+  text-align: center;
+  line-height: 35px;
+}
+footer .footer-mid .footer-mid_social .footer-mid_social_links .row a i {
+  font-size: 1.5rem;
+}
+footer .footer-bottom {
+  min-height: 185px;
+  background: #F0D839;
+}
+
+@media only screen and (min-width: 568px) {
+  .review_item_profile {
+    width: 50% !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 1em;
+  }
+
+  .navbar .nav-link {
+    padding: 0 1rem 1rem 1rem !important;
+  }
+  .navbar .navbar-collapse {
+    position: absolute;
+    right: 0;
+    bottom: 0.1rem;
+  }
+
+  .hero-content .hero-content-inner h1 {
+    font-size: 5rem !important;
+  }
+  .hero-content .hero-content-inner h2 {
+    font-size: 2.5rem;
+    letter-spacing: 1rem !important;
+  }
+
+  .find-hotel_form form .adult, .find-hotel_form form .child {
+    width: 10%;
+  }
+  .find-hotel_form form .submit-btn {
+    width: 15%;
+    margin-top: 1rem;
+  }
+
+  .about {
+    background-image: url(../img/aboutRIghtBg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .service_item .service_item_icon {
+    width: 30%;
+  }
+
+  .budget-pack_bg_top {
+    min-height: 505px;
+    padding-bottom: 0px;
+  }
+
+  .budget-pack_bg_bottom {
+    background: #00A4FF !important;
+    min-height: 256px;
+  }
+  .budget-pack_bg_bottom .packages {
+    position: absolute;
+    top: -250px;
+  }
+
+  .tour-status_des_tab div h4 {
+    margin-left: 1rem !important;
+  }
+  .tour-status_des_tab div:nth-child(2n) {
+    margin-left: -35px !important;
+    width: 45% !important;
+    padding-left: 3rem !important;
+  }
+  .tour-status_des_tab div:last-child {
+    margin-left: -35px !important;
+    width: 35% !important;
+    padding-left: 1.5rem !important;
+  }
+
+  .slide-show {
+    min-height: 860px;
+    padding: 0 4rem 0 4rem;
+  }
+  .slide-show .slide-show-right {
+    margin-left: -8rem;
+  }
+  .slide-show .slide-show-right .card {
+    width: 75%;
+  }
+
+  .best-deals_bg-top {
+    min-height: 684px;
+    padding-bottom: 0px;
+  }
+
+  .best-deals_bg_bottom .best-deals_items_packages {
+    position: absolute;
+    left: 0;
+    top: -450px;
+  }
+  .best-deals_bg_bottom .best-deals_items_packages .best-deals_items .card:nth-child(2n) {
+    margin-top: -1rem !important;
+    margin-bottom: 0rem !important;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+  }
+  .best-deals_bg_bottom .best-deals_items_packages .best-deals_items .card:first-child {
+    margin-right: -1rem;
+  }
+  .best-deals_bg_bottom .best-deals_items_packages .best-deals_items .card:last-child {
+    margin-left: -1rem;
+  }
+  .best-deals_bg_bottom .best-deals_items_packages .best-deals_items .card:nth-child(2n)::after {
+    width: 100% !important;
+    height: 5.5rem !important;
+  }
+
+  .review_item_profile {
+    width: 40% !important;
+  }
+
+  .footer-mid_social_links .row {
+    width: 50% !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .tour-status_des_tab div:nth-child(2n) {
+    width: 40% !important;
+    padding-left: 3rem !important;
+  }
+  .tour-status_des_tab div:last-child {
+    padding-left: 3rem !important;
+  }
+
+  .review_item_profile {
+    width: 25% !important;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

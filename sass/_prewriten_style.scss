@@ -1,0 +1,97 @@
+html {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+body{
+  color: $text-dark!important;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif!important;
+  background: #ffffff!important;
+}
+h1,h2{
+  font-family: 'Montserrat', sans-serif!important;
+  font-weight: 900!important;
+}
+a,h3,h4,h5,.font-montserrat-reg{
+  font-family: 'Montserrat', sans-serif!important;
+  font-weight: 400!important;
+}
+a{
+  text-decoration: none!important;
+}
+p,.font-lato,small{
+  font-family: 'Lato', sans-serif!important;
+  font-weight: 400;
+}
+p{
+  font-size: 17.78px!important;
+}
+.sub-title,.font-weight-medium{
+  font-weight: 500!important;
+}
+.clear{
+  overflow: hidden;
+}
+.roted{
+  transform: rotate(-40deg);
+}
+.rounded-xl{
+  border-radius: 1rem!important;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: $text-dark;
+    padding: 0.2em 0;
+}
+
+
+/*
+ * Hide visually and from screen readers
+ */
+
+ .hidden {
+    display: none !important;
+  }
+  
+  .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+  }
+  
+  /*
+  * Hide visually and from screen readers, but maintain layout
+  */
+  
+  .invisible {
+    visibility: hidden;
+  }

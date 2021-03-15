@@ -1,0 +1,44 @@
+.best-deals{
+    min-height: 940px;
+    .best-deals_bg-top{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        // min-height: 684px;
+        background: url(../img/bestDealsBG.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .best-deals_bg_bottom{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        min-height: 256px;
+        background: $secondary!important;
+        .best-deals_items_packages{
+            width: 100%;
+            .best-deals_items {
+                .card{
+                    // box-shadow:1px 1px 4px 1px #024024!important;
+                    border: unset!important;
+                    overflow: hidden;
+                    min-height: 520px;
+                    border-radius: 1rem;
+                    .card-body{
+                        border-radius: 1rem;
+                    }
+                }
+                .card:nth-child(2n){
+                    position: relative;
+                    overflow: visible;
+                    z-index: 1;
+                }
+                .card:nth-child(2n)::after{
+                    content: "";
+                    position: absolute;
+                    background: #ffffff !important;
+                    bottom: -14%;
+                    clip-path: polygon(0 0, 0 50%, 50% 100%, 100% 50%, 100% 0);
+                }
+            }
+        }
+    }
+}

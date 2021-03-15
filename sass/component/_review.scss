@@ -1,0 +1,28 @@
+.review{
+    min-height: 590px;
+    background: url(../img/reviewBG.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    .review_item{
+        .stars{
+            width: 15%;
+            margin-top: 40px!important;
+            i{
+                color: $primary!important;
+            }
+        }
+        .review_item_profile{
+            width: 75%;
+            margin: auto;
+            margin-top: 58px;
+            .review_item_profile_thumb{
+                img{
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
